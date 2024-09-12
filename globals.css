@@ -1,0 +1,36 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "SF Compact Display-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/5c40dcb036cd940009ff6a60/SFCompactDisplay-Bold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "SF Compact Display-Medium";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/65c7214062e1f33d686a84b8/fonts/sf-compact-display-medium-5864711817c30.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "SF Compact Display-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/653f36b96781bb25aa2eed63/fonts/sf-compact-display-regular.otf")
+    format("opentype");
+}

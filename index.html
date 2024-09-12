@@ -1,92 +1,262 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body class="feed">
-    <div class="side-menu">
-        <div style="width: 100%; height: 100%; padding-left: 10px; padding-right: 10px; flex-direction: column; justify-content: center; align-items: flex-start; gap: 219px; display: inline-flex">
-            <div style="height: 612px; flex-direction: column; justify-content: center; align-items: flex-start; display: inline-flex">
-                <div style="align-self: stretch; height: 53px; padding-top: 11px; padding-bottom: 12px; padding-left: 10px; padding-right: 215px; justify-content: flex-start; align-items: center; display: inline-flex">
-                    <div style="width: 30px; align-self: stretch; padding-top: 3.44px; padding-bottom: 3.49px; padding-left: 1.17px; padding-right: 0.45px; justify-content: center; align-items: center; display: inline-flex">
-                        <div style="width: 28.38px; height: 23.07px; background: #685FA4"></div>
-                    </div>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="feed-light">
+      <div class="overlap-group-wrapper">
+        <div class="overlap-group">
+          <div class="side-menu">
+            <div class="top">
+              <div class="logo"><img class="dark-theme-logo" src="img/dark-theme-logo-2.svg" /></div>
+              <div class="item-list">
+                <div class="div">
+                  <img class="img" src="img/dark-theme-home-selected-1.svg" />
+                  <div class="text-wrapper">Home</div>
                 </div>
-                <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-                    <div style="width: 255px; height: 60px; padding-top: 15px; padding-bottom: 15px; padding-left: 10px; padding-right: 143px; justify-content: flex-start; align-items: center; gap: 20px; display: inline-flex">
-                        <div style="width: 30px; height: 30px; padding-top: 2.22px; padding-bottom: 2.47px; padding-left: 1.12px; padding-right: 1.12px; justify-content: center; align-items: center; display: inline-flex">
-                            <div style="width: 27.75px; height: 25.31px; background: #685FA4"></div>
-                        </div>
-                        <div style="color: #685FA4; font-size: 19px; font-family: SF Compact Display; font-weight: 700; word-wrap: break-word">Home</div>
-                    </div>
-                    <div style="width: 255px; height: 60px; padding-top: 15px; padding-bottom: 15px; padding-left: 10px; padding-right: 128px; justify-content: flex-start; align-items: center; gap: 20px; display: inline-flex">
-                        <div style="width: 30px; height: 30px; padding: 2.81px; justify-content: center; align-items: center; display: inline-flex">
-                            <div style="width: 24.38px; height: 24.37px; background: #0F1419"></div>
-                        </div>
-                        <div style="color: #0F1419; font-size: 19px; font-family: SF Compact Display; font-weight: 700; word-wrap: break-word">Explore</div>
-                    </div>
-                    <div style="width: 255px; height: 60px; padding-top: 15px; padding-bottom: 15px; padding-left: 10px; padding-right: 80px; justify-content: flex-start; align-items: center; gap: 20px; display: inline-flex">
-                        <div style="width: 30px; height: 30px; padding-top: 2.41px; padding-bottom: 2.52px; padding-left: 2.50px; padding-right: 2.50px; justify-content: center; align-items: center; display: inline-flex">
-                            <div style="width: 25px; height: 25.06px; background: #0F1419"></div>
-                        </div>
-                        <div style="color: #0F1419; font-size: 19px; font-family: SF Compact Display; font-weight: 700; word-wrap: break-word">Notifications</div>
-                    </div>
-                    <div style="width: 255px; height: 60px; padding-top: 15px; padding-bottom: 15px; padding-left: 10px; padding-right: 107px; justify-content: flex-start; align-items: center; gap: 20px; display: inline-flex">
-                        <div style="width: 30px; height: 30px; padding-top: 3.77px; padding-bottom: 3.73px; padding-left: 2.50px; padding-right: 2.50px; justify-content: center; align-items: center; display: inline-flex">
-                            <div style="width: 25px; height: 22.50px; background: #0F1419"></div>
-                        </div>
-                        <div style="color: #0F1419; font-size: 19px; font-family: SF Compact Display; font-weight: 700; word-wrap: break-word">Messages</div>
-                    </div>
-                    <div style="width: 255px; height: 60px; padding-top: 15px; padding-bottom: 15px; padding-left: 10px; padding-right: 95px; justify-content: flex-start; align-items: center; gap: 20px; display: inline-flex">
-                        <div style="width: 30px; height: 30px; padding-top: 4.19px; padding-bottom: 0.62px; padding-left: 4.19px; padding-right: 4.19px; justify-content: center; align-items: center; display: inline-flex">
-                            <div style="width: 21.62px; height: 25.19px; background: #0F1419"></div>
-                        </div>
-                        <div style="color: #0F1419; font-size: 19px; font-family: SF Compact Display; font-weight: 700; word-wrap: break-word">Bookmarks</div>
-                    </div>
-                    <div style="width: 255px; height: 60px; padding-top: 15px; padding-bottom: 15px; padding-left: 10px; padding-right: 152px; justify-content: flex-start; align-items: center; gap: 20px; display: inline-flex">
-                        <div style="width: 30px; height: 30px; padding: 2.50px; justify-content: center; align-items: center; display: inline-flex">
-                            <div style="width: 25px; height: 25px; position: relative">
-                                <div style="width: 25px; height: 25px; left: 0px; top: 0px; position: absolute; background: #0F1419"></div>
-                                <div style="width: 14.38px; height: 12.15px; left: 5.31px; top: 6.43px; position: absolute; background: #0F1419"></div>
-                            </div>
-                        </div>
-                        <div style="color: #0F1419; font-size: 19px; font-family: SF Compact Display; font-weight: 700; word-wrap: break-word">Lists</div>
-                    </div>
-                    <div style="width: 255px; height: 60px; padding-top: 15px; padding-bottom: 15px; padding-left: 10px; padding-right: 136px; justify-content: flex-start; align-items: center; gap: 20px; display: inline-flex">
-                        <div style="width: 30px; height: 30px; padding-top: 2.07px; padding-bottom: 2.50px; padding-left: 4.56px; padding-right: 4.56px; justify-content: center; align-items: center; display: inline-flex">
-                            <div style="width: 20.88px; height: 25.43px; background: #0F1419"></div>
-                        </div>
-                        <div style="color: #0F1419; font-size: 19px; font-family: SF Compact Display; font-weight: 700; word-wrap: break-word">Profile</div>
-                    </div>
-                    <div style="width: 255px; height: 60px; padding-top: 15px; padding-bottom: 15px; padding-left: 10px; padding-right: 150px; justify-content: flex-start; align-items: center; gap: 20px; display: inline-flex">
-                        <div style="width: 30px; height: 30px; padding: 1.56px; justify-content: center; align-items: center; display: inline-flex">
-                            <div style="width: 26.88px; height: 26.88px; position: relative">
-                                <div style="width: 15.62px; height: 4.38px; left: 5.62px; top: 11.25px; position: absolute; background: #0F1419"></div>
-                                <div style="width: 26.88px; height: 26.88px; left: 0px; top: 0px; position: absolute; background: #0F1419"></div>
-                            </div>
-                        </div>
-                        <div style="color: #0F1419; font-size: 19px; font-family: SF Compact Display; font-weight: 700; word-wrap: break-word">More</div>
-                    </div>
+                <div class="div">
+                  <img class="img" src="img/light-theme-explore-default-2.svg" />
+                  <div class="home">Explore</div>
                 </div>
-                <div style="align-self: stretch; padding-top: 15px; padding-bottom: 15px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
-                    <div style="padding-left: 93px; padding-right: 93px; padding-top: 15px; padding-bottom: 15px; background: #685FA4; border-radius: 9999px; overflow: hidden; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
-                        <div style="text-align: center; color: white; font-size: 15px; font-family: SF Compact Display; font-weight: 700; line-height: 19px; word-wrap: break-word">Tweet</div>
-                    </div>
+                <div class="div">
+                  <img class="img" src="img/light-theme-notifications-default-2.svg" />
+                  <div class="home">Notifications</div>
                 </div>
+                <div class="div">
+                  <img class="img" src="img/light-theme-messages-default-2.svg" />
+                  <div class="home">Messages</div>
+                </div>
+                <div class="div">
+                  <img class="img" src="img/light-theme-bookmarks-default.svg" />
+                  <div class="home">Bookmarks</div>
+                </div>
+                <div class="div">
+                  <img class="img" src="img/light-theme-lists-default-2.svg" />
+                  <div class="home">Lists</div>
+                </div>
+                <div class="div">
+                  <img class="img" src="img/light-theme-profile-default-2.svg" />
+                  <div class="home">Profile</div>
+                </div>
+                <div class="div">
+                  <img class="img" src="img/light-theme-more-default.svg" />
+                  <div class="home">More</div>
+                </div>
+              </div>
+              <button class="button">
+                <div class="button-primary-big"><div class="text-wrapper-2">Tweet</div></div>
+              </button>
             </div>
-            <div style="width: 255px; height: 69px; position: relative; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
-                <div style="width: 39px; height: 39px; border-radius: 99999px; overflow: hidden; justify-content: center; align-items: center; display: inline-flex">
-                    <img style="width: 39px; height: 39px" src="https://via.placeholder.com/39x39" />
-                </div>
-                <div style="color: #0F1419; font-size: 16px; font-family: SF Compact Display; font-weight: 700; word-wrap: break-word">Jerome Bell</div>
-                <div style="width: 33px; height: 33px; padding-left: 7.91px; padding-right: 7.91px; justify-content: center; align-items: center; display: inline-flex">
-                    <div style="width: 17.19px; height: 4.81px; background: #0F1419"></div>
-                </div>
-                <div style="color: #5B7083; font-size: 16px; font-family: SF Compact Display; font-weight: 500; word-wrap: break-word">@afonsoinocente</div>
+            <div class="profile">
+              <div class="davide-biscuso">Jerome Bell</div>
+              <div class="biscuttu">@afonsoinocente</div>
+              <img class="dark-theme-ellipses" src="img/dark-theme-ellipses-default-1.svg" />
+              <div class="avatar-small"></div>
             </div>
+          </div>
+          <div class="feed">
+            <div class="header">
+              <div class="text-wrapper-3">Home</div>
+              <div class="divider"></div>
+              <img class="dark-theme-toptweet" src="img/dark-theme-toptweet-default-2.svg" />
+            </div>
+            <div class="post">
+              <div class="inner">
+                <div class="avatar-medium"><img class="profile-picture" src="img/profile-picture-5.png" /></div>
+                <div class="text-wrapper-4">What’s happening?</div>
+                <div class="actions">
+                  <img class="img-2" src="img/dark-theme-media-default.svg" />
+                  <img class="img-2" src="img/dark-theme-gif-default-2.svg" />
+                  <img class="img-2" src="img/dark-theme-poll-default.svg" />
+                  <img class="img-2" src="img/dark-theme-emoji-default-2.svg" />
+                  <img class="img-2" src="img/dark-theme-schedule-default-2.svg" />
+                </div>
+                <div class="button-primary"><div class="text-wrapper-5">Tweet</div></div>
+              </div>
+            </div>
+            <div class="spacer"><div class="divider-2"></div></div>
+            <div class="tweet">
+              <div class="divider-wrapper"><div class="divider-3"></div></div>
+              <div class="container">
+                <div class="side">
+                  <div class="profile-picture-wrapper">
+                    <img class="profile-picture" src="img/profile-picture-11.png" />
+                  </div>
+                </div>
+                <div class="main">
+                  <div class="user">
+                    <div class="text-wrapper-6">Devon Lane</div>
+                    <div class="text-wrapper-7">@johndue</div>
+                    <div class="text-wrapper-8">·</div>
+                    <div class="text-wrapper-7">23s</div>
+                  </div>
+                  <div class="content"><p class="hold-on-i-need-at">Tom is in a big hurry.</p></div>
+                  <div class="media"><div class="container-2"></div></div>
+                  <div class="actions-2">
+                    <div class="action-item">
+                      <img class="img-3" src="img/dark-theme-comment-default.svg" />
+                      <div class="text-wrapper-9">61</div>
+                    </div>
+                    <div class="action-item">
+                      <img class="img-3" src="img/dark-theme-retweet-default-2.svg" />
+                      <div class="text-wrapper-9">12</div>
+                    </div>
+                    <div class="action-item">
+                      <img class="img-3" src="img/dark-theme-like-selected.svg" />
+                      <div class="text-wrapper-10">6.2K</div>
+                    </div>
+                    <div class="action-item">
+                      <img class="img-3" src="img/dark-theme-share-default.svg" />
+                      <div class="text-wrapper-9">61</div>
+                    </div>
+                  </div>
+                  <div class="show-thread"><div class="text-wrapper-11">Show this thread</div></div>
+                </div>
+              </div>
+            </div>
+            <div class="tweet">
+              <div class="divider-wrapper"><div class="divider-3"></div></div>
+              <div class="container">
+                <div class="side">
+                  <div class="profile-picture-wrapper">
+                    <img class="profile-picture" src="img/profile-picture-12.png" />
+                  </div>
+                </div>
+                <div class="main">
+                  <div class="user">
+                    <div class="text-wrapper-6">Darlene Robertson</div>
+                    <div class="text-wrapper-7">@johndue</div>
+                    <div class="text-wrapper-8">·</div>
+                    <div class="text-wrapper-7">23s</div>
+                  </div>
+                  <div class="content"><p class="hold-on-i-need-at">Tom is in a big hurry.</p></div>
+                  <div class="media"><div class="container-3"></div></div>
+                  <div class="actions-2">
+                    <div class="action-item">
+                      <img class="img-3" src="img/dark-theme-comment-default-3.svg" />
+                      <div class="text-wrapper-9">61</div>
+                    </div>
+                    <div class="action-item">
+                      <img class="img-3" src="img/dark-theme-retweet-default-3.svg" />
+                      <div class="text-wrapper-9">12</div>
+                    </div>
+                    <div class="action-item">
+                      <img class="img-3" src="img/dark-theme-like-selected-3.svg" />
+                      <div class="text-wrapper-10">6.2K</div>
+                    </div>
+                    <div class="action-item">
+                      <img class="img-3" src="img/dark-theme-share-default-3.svg" />
+                      <div class="text-wrapper-9">61</div>
+                    </div>
+                  </div>
+                  <div class="show-thread"><div class="text-wrapper-11">Show this thread</div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="divider-left"></div>
+          <div class="divider-right"></div>
+          <div class="side-column">
+            <div class="search-bar">
+              <img class="dark-theme-search" src="img/dark-theme-search-default-2.svg" />
+              <div class="text-wrapper-12">Search Twitter</div>
+            </div>
+            <div class="div-2">
+              <div class="header-2">
+                <div class="text-wrapper-13">What’s happening</div>
+                <div class="divider-4"></div>
+              </div>
+              <div class="news">
+                <div class="text">
+                  <div class="topic">
+                    <div class="text-wrapper-14">COVID19</div>
+                    <div class="text-wrapper-14">·</div>
+                    <div class="text-wrapper-14">Last night</div>
+                  </div>
+                  <p class="title-lasdh-asldh">
+                    England’s Chief Medical Officer says the UK is at the most dangerous time of the pandemic
+                  </p>
+                  <div class="topic">
+                    <div class="text-wrapper-15">Trending with</div>
+                    <div class="hashtag">#covid19</div>
+                  </div>
+                </div>
+                <div class="thumbnail-wrapper"><div class="thumbnail"></div></div>
+              </div>
+              <div class="divider-5"></div>
+              <div class="news">
+                <div class="text">
+                  <div class="topic">
+                    <div class="text-wrapper-14">US news</div>
+                    <div class="text-wrapper-14">·</div>
+                    <div class="text-wrapper-14">4h ago</div>
+                  </div>
+                  <p class="title-lasdh-asldh">
+                    Parler may go offline following suspensions by Amazon, Apple and Google
+                  </p>
+                  <div class="topic">
+                    <div class="text-wrapper-15">Trending with</div>
+                    <div class="hashtag">#trump</div>
+                  </div>
+                </div>
+                <div class="thumbnail-wrapper"><div class="thumbnail-2"></div></div>
+              </div>
+              <div class="divider-5"></div>
+              <div class="news">
+                <div class="text">
+                  <div class="topic">
+                    <div class="text-wrapper-14">India</div>
+                    <div class="text-wrapper-14">·</div>
+                    <div class="text-wrapper-14">1h ago</div>
+                  </div>
+                  <p class="title-lasdh-asldh">
+                    India vs Australia: India hold on to earn a draw on Day 5 in Sydney Test
+                  </p>
+                  <div class="topic">
+                    <div class="text-wrapper-15">Trending with</div>
+                    <div class="hashtag">#sport</div>
+                  </div>
+                </div>
+                <div class="thumbnail-wrapper"><div class="thumbnail-3"></div></div>
+              </div>
+              <div class="divider-5"></div>
+              <div class="div-wrapper"><div class="text-wrapper-16">Show more</div></div>
+            </div>
+            <div class="div-2">
+              <div class="header-2">
+                <div class="text-wrapper-17">Who to follow</div>
+                <div class="divider-4"></div>
+              </div>
+              <div class="frame-wrapper">
+                <div class="frame">
+                  <div class="text-wrapper-18">Bessie Cooper</div>
+                  <div class="text-wrapper-19">@alessandroveronezi</div>
+                  <div class="img-wrapper"><img class="profile-picture" src="img/profile-picture-2.png" /></div>
+                  <button class="button-secondary"><div class="tweet-2">Follow</div></button>
+                  <div class="divider-6"></div>
+                </div>
+              </div>
+              <div class="frame-wrapper">
+                <div class="frame">
+                  <div class="text-wrapper-18">Jenny Wilson</div>
+                  <div class="text-wrapper-19">@gabrielcantarin</div>
+                  <div class="img-wrapper"><img class="profile-picture" src="img/profile-picture-1.png" /></div>
+                  <button class="button-secondary"><div class="tweet-2">Follow</div></button>
+                  <div class="divider-6"></div>
+                </div>
+              </div>
+              <div class="div-wrapper"><div class="text-wrapper-16">Show more</div></div>
+            </div>
+            <p class="terms-of-service">
+              Terms of Service Privacy Policy Cookie Policy<br />Ads info More © 2021 Twitter, Inc.
+            </p>
+          </div>
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
